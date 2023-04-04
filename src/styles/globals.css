@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap"); */
+.cart {
+  background: url("/public/cart.svg");
+}
+
+.hover\:cart-white:hover {
+  background: url("/public/cart-white.svg");
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
